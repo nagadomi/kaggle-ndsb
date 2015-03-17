@@ -35,17 +35,6 @@ Ensemble Deep CNNs trained with real-time data augmentation.
   </tr>
   <tr>
     <td>
-     Architecture
-    </td>
-    <td>
-      three architectures for different rescaling inputs. 
-      <a href="https://github.com/nagadomi/kaggle-ndsb/blob/master/cnn_96x96.lua">cnn_96x96</a>,
-      <a href="https://github.com/nagadomi/kaggle-ndsb/blob/master/cnn_72x72.lua">cnn_72x72</a>,
-      <a href="https://github.com/nagadomi/kaggle-ndsb/blob/master/cnn_48x48.lua">cnn_48x48</a>
-    </td>
-  </tr>
-  <tr>
-    <td>
       Data augmentation
     </td>
     <td>
@@ -53,6 +42,17 @@ Ensemble Deep CNNs trained with real-time data augmentation.
       transformation method includes translation, scaling, perspective cropping and contrast scaling.
       <img src="https://raw.githubusercontent.com/nagadomi/kaggle-ndsb/master/figure/random_transform.png">
       <img src="https://raw.githubusercontent.com/nagadomi/kaggle-ndsb/master/figure/random_transform_grid.png">
+    </td>
+  </tr>
+  <tr>
+    <td>
+     Neural Network Architecture
+    </td>
+    <td>
+      three CNN architectures for different rescaling inputs. 
+      <a href="https://github.com/nagadomi/kaggle-ndsb/blob/master/cnn_96x96.lua">cnn_96x96</a>,
+      <a href="https://github.com/nagadomi/kaggle-ndsb/blob/master/cnn_72x72.lua">cnn_72x72</a>,
+      <a href="https://github.com/nagadomi/kaggle-ndsb/blob/master/cnn_48x48.lua">cnn_48x48</a>
     </td>
   </tr>
   <tr>
