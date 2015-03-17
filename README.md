@@ -39,7 +39,7 @@ Ensemble Deep CNNs trained with real-time data augmentation.
     </td>
     <td>
       real-time data agumentation (apply random transform before minibatch sgd).
-      transformation method includes translation, scaling, perspective cropping and contrast scaling.
+      transformation method includes translation, scaling, perspective cropping and contrast scaling.<br/>
       <img src="https://raw.githubusercontent.com/nagadomi/kaggle-ndsb/master/figure/random_transform.png">
       <img src="https://raw.githubusercontent.com/nagadomi/kaggle-ndsb/master/figure/random_transform_grid.png">
     </td>
@@ -49,7 +49,7 @@ Ensemble Deep CNNs trained with real-time data augmentation.
      Neural Network Architecture
     </td>
     <td>
-      three CNN architectures for different rescaling inputs. 
+      Three CNN architectures for different rescaling inputs. 
       <a href="https://github.com/nagadomi/kaggle-ndsb/blob/master/cnn_96x96.lua">cnn_96x96</a>,
       <a href="https://github.com/nagadomi/kaggle-ndsb/blob/master/cnn_72x72.lua">cnn_72x72</a>,
       <a href="https://github.com/nagadomi/kaggle-ndsb/blob/master/cnn_48x48.lua">cnn_48x48</a>
