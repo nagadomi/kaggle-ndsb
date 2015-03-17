@@ -1,0 +1,8 @@
+*~
+.back
+.tar.gz
+*.t7
+models/*.txt
+data/train
+data/test
+
