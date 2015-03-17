@@ -38,7 +38,7 @@ Ensemble Deep CNNs trained with real-time data augmentation.
       Data augmentation
     </td>
     <td>
-      real-time data agumentation (apply random transform each minibatchs).
+      real-time data agumentation (apply the random transformation each minibatchs).
       transformation method includes translation, scaling, rotation, perspective cropping and contrast scaling.<br/>
       <img src="https://raw.githubusercontent.com/nagadomi/kaggle-ndsb/master/figure/random_transform.png">
       <img src="https://raw.githubusercontent.com/nagadomi/kaggle-ndsb/master/figure/random_transform_grid.png">
