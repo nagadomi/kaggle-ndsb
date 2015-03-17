@@ -176,6 +176,7 @@ This task is very heavy. I used x20 g2.xlarge instances for this task and it's t
     th train.lua -model 48 -seed 104
     th train.lua -model 48 -seed 105
     th train.lua -model 48 -seed 106
+    th train.lua -model 48 -seed 107
     th train.lua -model 48 -seed 108
     th train.lua -model 72 -seed 101
     th train.lua -model 72 -seed 102
@@ -183,6 +184,7 @@ This task is very heavy. I used x20 g2.xlarge instances for this task and it's t
     th train.lua -model 72 -seed 104
     th train.lua -model 72 -seed 105
     th train.lua -model 72 -seed 106
+    th train.lua -model 72 -seed 107
     th train.lua -model 72 -seed 108
     th train.lua -model 96 -seed 101
     th train.lua -model 96 -seed 102
@@ -190,6 +192,7 @@ This task is very heavy. I used x20 g2.xlarge instances for this task and it's t
     th train.lua -model 96 -seed 104
     th train.lua -model 96 -seed 105
     th train.lua -model 96 -seed 106
+    th train.lua -model 96 -seed 107
     th train.lua -model 96 -seed 108
     
     th predict.lua -model 48 -seed 101
@@ -198,6 +201,7 @@ This task is very heavy. I used x20 g2.xlarge instances for this task and it's t
     th predict.lua -model 48 -seed 104
     th predict.lua -model 48 -seed 105
     th predict.lua -model 48 -seed 106
+    th predict.lua -model 48 -seed 107
     th predict.lua -model 48 -seed 108
     th predict.lua -model 72 -seed 101
     th predict.lua -model 72 -seed 102
@@ -205,6 +209,7 @@ This task is very heavy. I used x20 g2.xlarge instances for this task and it's t
     th predict.lua -model 72 -seed 104
     th predict.lua -model 72 -seed 105
     th predict.lua -model 72 -seed 106
+    th predict.lua -model 72 -seed 107
     th predict.lua -model 72 -seed 108
     th predict.lua -model 96 -seed 101
     th predict.lua -model 96 -seed 102
@@ -212,6 +217,7 @@ This task is very heavy. I used x20 g2.xlarge instances for this task and it's t
     th predict.lua -model 96 -seed 104
     th predict.lua -model 96 -seed 105
     th predict.lua -model 96 -seed 106
+    th predict.lua -model 96 -seed 107
     th predict.lua -model 96 -seed 108
 
     th ensemble.lua > submission.txt
