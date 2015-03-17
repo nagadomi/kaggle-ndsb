@@ -12,7 +12,7 @@ Ensemble Deep CNNs trained with real-time data augmentation.
       Preprocessing
     </td>
     <td>
-      centering, convert to a fixed length with padding, convert to a negative.
+      centering, convert to a square image with padding, convert to a negative.
       <table>
         <tr>
 	  <th>Source</th>
