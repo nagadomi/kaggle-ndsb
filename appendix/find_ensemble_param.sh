@@ -27,4 +27,4 @@ th cv_predict.lua -model 96 -seed 106
 th cv_predict.lua -model 96 -seed 107
 th cv_predict.lua -model 96 -seed 108
 
-th cv_param_find.lua
+th cv_find_param.lua
