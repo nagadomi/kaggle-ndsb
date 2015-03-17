@@ -19,20 +19,16 @@ Ensemble Deep CNNs trained with real-time data augmentation.
 	  <th>Destination</th>
 	</tr>
 	<tr>
-	  <td>(figure)</td>
-	  <td>(figure)</td>
+	  <td><img src="https://raw.githubusercontent.com/nagadomi/kaggle-ndsb/master/figure/preprocess_before_1.png"></td>
+	  <td><img src="https://raw.githubusercontent.com/nagadomi/kaggle-ndsb/master/figure/preprocess_after_1.png"></td>
 	</tr>
 	<tr>
-	  <td>(figure)</td>
-	  <td>(figure)</td>
+	  <td><img src="https://raw.githubusercontent.com/nagadomi/kaggle-ndsb/master/figure/preprocess_before_4.png"></td>
+	  <td><img src="https://raw.githubusercontent.com/nagadomi/kaggle-ndsb/master/figure/preprocess_after_4.png"></td>
 	</tr>
 	<tr>
-	  <td>(figure)</td>
-	  <td>(figure)</td>
-	</tr>
-	<tr>
-	  <td>(figure)</td>
-	  <td>(figure)</td>
+	  <td><img src="https://raw.githubusercontent.com/nagadomi/kaggle-ndsb/master/figure/preprocess_before_5.png"></td>
+	  <td><img src="https://raw.githubusercontent.com/nagadomi/kaggle-ndsb/master/figure/preprocess_after_5.png"></td>
 	</tr>
       </table>
     </td>
@@ -42,7 +38,10 @@ Ensemble Deep CNNs trained with real-time data augmentation.
      Architecture
     </td>
     <td>
-      three architectures for different rescaling inputs, cnn_96x96, cnn_72x72 and cnn_48x48.
+      three architectures for different rescaling inputs. 
+      <a href="https://github.com/nagadomi/kaggle-ndsb/blob/master/cnn_96x96.lua">cnn_96x96</a>,
+      <a href="https://github.com/nagadomi/kaggle-ndsb/blob/master/cnn_72x72.lua">cnn_72x72</a>,
+      <a href="https://github.com/nagadomi/kaggle-ndsb/blob/master/cnn_48x48.lua">cnn_48x48</a>
     </td>
   </tr>
   <tr>
@@ -50,9 +49,10 @@ Ensemble Deep CNNs trained with real-time data augmentation.
       Data augmentation
     </td>
     <td>
-      real-time data agumentation (applied random transform before minibatch sgd).
+      real-time data agumentation (apply random transform before minibatch sgd).
       transformation method includes translation, scaling, perspective cropping and contrast scaling.
-      (figure) (figure)
+      <img src="https://raw.githubusercontent.com/nagadomi/kaggle-ndsb/master/figure/random_transform.png">
+      <img src="https://raw.githubusercontent.com/nagadomi/kaggle-ndsb/master/figure/random_transform_grid.png">
     </td>
   </tr>
   <tr>
