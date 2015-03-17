@@ -20,6 +20,6 @@ seed=101
 for ip in ${ips[@]}
 do
     scp -i ${key_file} -Cp ec2-user@${ip}:bowl/models/submission_${model}x_${split}_${seed}.txt .
-    scp -i ${key_file} -Cp ec2-user@${ip}:bowl/models/cnn_${model}x_${split}_${seed}.t7 .done
+    scp -i ${key_file} -Cp ec2-user@${ip}:bowl/models/cnn_${model}x_${split}_${seed}.t7 .
 done
 
