@@ -214,4 +214,4 @@ This task is very heavy. I used x20 g2.xlarge instances for this task and it's t
     th predict -model 96 -seed 106
     th predict -model 96 -seed 108
 
-    th ensemble.lua
+    th ensemble.lua > submission.txt
