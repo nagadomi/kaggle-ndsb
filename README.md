@@ -106,7 +106,7 @@ Ensemble Deep CNNs trained with real-time data augmentation.
 	  <td> 0.6311 </td>
 	</tr>
 	<tr>
-	  <td> ensemble (cnn_48x8(x8) * 0.2292 + cnn_72x72(x8) * 0.3494 + cnn_96x96(x8) * 0.4212 + 9.828e-6)</td>
+	  <td> ensemble (cnn_48x48(x8) * 0.2292 + cnn_72x72(x8) * 0.3494 + cnn_96x96(x8) * 0.4212 + 9.828e-6)</td>
 	  <td> 0.6160 </td>
 	</tr>
       </table>
