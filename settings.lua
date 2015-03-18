@@ -17,10 +17,10 @@ local settings = {}
 
 -- data directory
 settings.data_dir = "./data"
--- trained model directory
+-- model directory
 settings.model_dir = "./models"
 
--- specifiy the data directory
+-- rescaling size
 settings.image_size = 48
 
 -- number of classes
@@ -28,12 +28,12 @@ settings.classes = 121
 
 local cmd = torch.CmdLine()
 cmd:text()
-cmd:text("Kaggle-BOWL")
+cmd:text("Kaggle-NDSB")
 cmd:text("Options:")
 cmd:option("-seed", 11, 'fixed input seed')
 cmd:option("-split", "stratified", 'split method (unrestricted|stratified)')
 cmd:option("-model", 48, 'model (48 | 72 | 96)')
-cmd:option("-predict", "fast", 'predict method (fast| accuracy)')
+--cmd:option("-predict", "fast", 'predict method (fast| accuracy)')
 cmd:option("-data_dir", "./data", 'data directory')
 cmd:option("-model_dir", "./models", 'model directory')
 
